@@ -1,0 +1,180 @@
+*{margin:0; padding:0;}
+
+h1,h2,h3,h4,h5,h6{font-family:arial;}
+
+#navdiv{    background: #ffffff;
+padding:20px; border-bottom:2px solid orange;
+}
+
+#all_menu{
+	width:1170px;
+	overflow:hidden;
+	margin:auto;
+
+}
+
+#logo{margin-top: 8px;
+	width:200px;
+	float:left;
+}
+
+
+#menu_list{
+	width:700px;
+	float:right;
+	
+}
+
+#un_list li{display: inline-block;
+
+    font-size: 13px;
+    margin: 10px 12px;}
+#menu_list #un_list{
+	margin:3px 116px;list-style:none;
+	
+}
+#un_list li a{text-decoration:none;
+color: #948b8b;text-transform:uppercase; }
+#section_service{background-image:url("https://images.pexels.com/photos/884788/pexels-photo-884788.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+         background-repeat: no-repeat;
+    background-size: cover;
+}
+#menu_list li a:hover{color:black;
+border-bottom:2px solid orange;
+}
+#section_title span{color:red;}
+
+#section_service #section_title {color:white;}
+
+#section_title{font-size:30px;}
+
+
+
+
+
+#about_us #section_title{margin-top: 30px;}
+#about_us #section_title {color:black;}
+
+#all_content{
+    width:1170px;
+	overflow:hidden;
+	margin:auto;
+
+
+}
+
+#section_title{
+	text-align: center;
+    padding: 25px;
+    font-size: 40px;
+}
+
+
+#service_block{
+	width: 365px;
+	background: #ffffff;
+	display: inline-block;
+	overflow: hidden;
+	margin: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+	transition:all 1s;
+	animation-name:xoomBox;
+	animation-duration:2s;
+}
+
+#service_block:hover{
+	background:transparent;
+	transform:translateY(-10px);
+	color:white;
+	cursor:pointer;
+	
+	
+}
+#service_block:hover i{color:white;}
+@keyframes xoomBox{
+	from{transform:scale(.1) }
+	to{transform:scale(1) } 
+	
+}
+
+
+
+#left_icon{
+	color:red;
+	width:50px;
+	float:left;
+	text-align: center;
+	font-size: 55px;
+	
+}
+
+#right_content{
+	width: 290px;
+	float:right;
+	padding: 12px;
+}
+
+
+#right_content h3:hover{
+	transform:translateX(100px);
+	color:red;transition:all 1s;
+}
+
+#right_content p{margin-top:20px;}
+
+#left_image{width: 500px;
+    float: left;
+    box-shadow: 3px 2px 9px 3px #c1bbbb;
+transition:all 1s;
+	}
+
+img{max-width:100%;}
+
+
+
+#right_article{
+	color:black;
+	overflow:hidden;
+	background-image:url("https://static2.bigstockphoto.com/5/5/1/large1500/155630477.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:630px;
+	float:right;
+
+}
+
+
+#right_article h2{ 
+margin-top:25px;
+font-size:30px;
+border-bottom: 2px solid #c1bbbb;
+
+}
+
+#right_article #paragraph{
+	margin-top:40px;
+	color:red;
+}
+#right_article span{color:red;}
+#right_article p,ul{font-size: 15px;
+    font-family: arial black; }
+#right_article strong{color:black;}
+
+footer{
+	background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#about_us #left_image:hover{border:1px solid transparent;
+transform:translateY(-20);
+}
+
+
+
+
+
+
+

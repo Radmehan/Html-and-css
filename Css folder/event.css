@@ -1,0 +1,14 @@
+#btn{
+	border:2px solid black;
+	color:white;
+	background:red;
+	text-align:center;
+	padding:15px 13px;
+}
+#container{
+	width:900px;
+	display:block;
+	margin:auto;
+	text-align:justify;
+}
+#container h1{text-align:center;}
